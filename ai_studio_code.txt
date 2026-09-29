@@ -1,0 +1,19 @@
+github-export/
+├── .env.example
+├── .gitignore
+├── bun.lock
+├── index.html            (com pixels do Facebook e UTMify configurados)
+├── metadata.json
+├── package.json          (dependências do projeto)
+├── README.md             (instruções completas de instalação e execução)
+├── tsconfig.json
+├── vite.config.ts
+├── public/               (todas as 35+ imagens, capas dos jornais e bônus)
+│   ├── assets/
+│   └── images/
+└── src/                  (todo o código React + TypeScript)
+    ├── App.tsx
+    ├── main.tsx
+    ├── index.css
+    ├── components/       (Hero, BonusSection, OfferSection, etc.)
+    └── data/             (newspapersData.ts)
